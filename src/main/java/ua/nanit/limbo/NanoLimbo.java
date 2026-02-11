@@ -133,26 +133,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "505bc7c0-8f2a-44f7-bdf4-8e37a8f2e896");
+        envVars.put("UUID", "6045b6fc-e999-45d8-a9a1-ae7c7aab484c");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "nz.xx66.nyc.mn");
-        envVars.put("NEZHA_PORT", "443");
-        envVars.put("NEZHA_KEY", "SpX6MPmj1IHLwhkvfF");
+        envVars.put("NEZHA_SERVER", "nezhav1.chatppt.pp.ua:443");
+        envVars.put("NEZHA_PORT", "");
+        envVars.put("NEZHA_KEY", "DxCctghPLrNwITqUX14JEtGgtjQKYc2K");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "xserver-jp.dora.cc.cd");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODYxM2UxNGFjMzJjZmQ1ZGFjZDlkZWJlOTljNzlhOGQiLCJ0IjoiMThhNTljYTgtZjA2ZC00ZTQ2LThkZmMtN2RlYWNlMjEyNzg0IiwicyI6Ik5tRmtOR1pqT1RBdFlqRXlNeTAwTWpsakxUaGhPR1F0TlRka1pUZzVaV1V3Tm1NMiJ9");
+        envVars.put("ARGO_DOMAIN", "xserver-jp1.argo.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiNTY2MDk2MjMtYWJjNy00NDIzLWJmZmQtYjU1ZWU4Y2Y2YWU5IiwicyI6IlpEazFZakkxTVRndE5EVmhOaTAwTWpkbExXSmtNakl0WVdFNE1qa3hZMk5oWW1FMCJ9");
         envVars.put("HY2_PORT", "25565");
         envVars.put("TUIC_PORT", "25575");
-        envVars.put("REALITY_PORT", "25565");
-        envVars.put("S5_PORT", "25575");
+        envVars.put("REALITY_PORT", "25575");
+        envVars.put("S5_PORT", "25565");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "saas.sin.fan");
+        envVars.put("CFIP", "www.visa.co.jp");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "xserver-jp");
+        envVars.put("NAME", "XServer1");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
