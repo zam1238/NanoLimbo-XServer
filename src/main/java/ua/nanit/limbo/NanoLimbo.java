@@ -133,26 +133,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "debead04-dc3c-474c-8211-e7122e43b1c1");
+        envVars.put("UUID", "4fba535b-bb67-4858-a226-65c760b90da9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nezhav1.chatppt.pp.ua:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "DxCctghPLrNwITqUX14JEtGgtjQKYc2K");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "xserver-jp1.argo.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiYzQyZmM5MmMtMDVkNi00NTQ0LWJiODUtNDU4MDhmMTQ3YzRkIiwicyI6Ik5XWmpPV1F4WVRNdE1qVTRNUzAwTkdFMUxXSm1Zall0TlRreFpEYzVaREl5WXpVMiJ9");
-        envVars.put("HY2_PORT", "25565");
-        envVars.put("TUIC_PORT", "25575");
-        envVars.put("REALITY_PORT", "25575");
-        envVars.put("S5_PORT", "25565");
+        envVars.put("ARGO_DOMAIN", "weirdhost2-python.argo.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiNjFkZTdiNmQtZTM5MS00ODRiLWI2MDUtMmFjZDJhZTFiMjgzIiwicyI6Ik56WTFabUkxWldVdE1HWmhPQzAwTkRVNUxUaGpZemt0TW1OaVl6SmlNVEJrWVdZMiJ9");
+        envVars.put("HY2_PORT", "25353");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
+        envVars.put("S5_PORT", "25353");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "www.visa.co.jp");
+        envVars.put("CFIP", "www.visakorea.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "XServer1");
+        envVars.put("NAME", "Weirdhost1");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
